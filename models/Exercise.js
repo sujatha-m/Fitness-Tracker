@@ -1,7 +1,8 @@
+// Require mongoose to create the schema
 const mongoose = require("mongoose")
-
+// Require Schema from mongoose
 const Schema = mongoose.Schema
-
+// Define the excercise Schema
 const exerciseSchema = new Schema({
     type:{
         type: String,
@@ -35,7 +36,7 @@ const exerciseSchema = new Schema({
     }
 
 })
-
+// Define exercise as a mongoose model
 const Exercise = mongoose.model('Exercise', exerciseSchema)
-
+// module export Exercise
 module.exports = Exercise

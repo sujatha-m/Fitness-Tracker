@@ -1,16 +1,18 @@
 // Dependencies
+// Require path to make the absolute path relative
 const path = require('path')
+// Require
 const router = require('express').Router()
 
 // Routes
 
-// The route for creating exercise
+// send the  exercise.html file
 router.get('/exercise', function (req, res) {
   res.sendFile(path.join(__dirname, '../public/exercise.html'))
 })
-
-router.get('/stats', function(req, res){
-    res.sendFile(path.join(__dirname, '../public/stats.html'))
+// send the  stats.html file
+router.get('/stats', function (req, res) {
+  res.sendFile(path.join(__dirname, '../public/stats.html'))
 })
 
 // The index route redirects to /index route
