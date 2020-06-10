@@ -3,7 +3,7 @@
 Allows the user to track a workout. Various attributes of the workouts can be stored. The workouts are saved in a Mongo database.
 
 ### Deployed Heroku URL
-https://safe-crag-29613.herokuapp.com/
+
 
 ## Table of Contents
    * [User Story](#user-story)
@@ -39,6 +39,8 @@ The user has the option to record either a resistance or cardio exercise. A resi
 ## Visuals
 
 ![](Demo/fitnessTracker.gif)
+![](Demo/Screenshot1.png)
+![](Demo/Screenshot2.png)
 
 ## Built with
 * JavaScript
