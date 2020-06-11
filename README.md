@@ -1,9 +1,9 @@
 # Fitness-Tracker
 
-Allows the user to track a workout. Various attributes of the workouts can be stored. The workouts are saved in a Mongo database.
+Fitness Tracker allows the user to track a workout and various attributes of the workouts can be saved and stored in a Mongo database.
 
 ### Deployed Heroku URL
-
+https://gentle-dawn-36665.herokuapp.com/
 
 ## Table of Contents
    * [User Story](#user-story)
@@ -56,7 +56,7 @@ Run npm install to install all dependencies. To use the application locally, run
 
 ## Usage
 ```sh
-      node server.js  
+      node server.js  or npm start
 ```
 
 ## Contributing
